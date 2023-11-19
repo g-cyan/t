@@ -5,7 +5,7 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 
 grub-mkconfig -o /boot/grub/grub.cfg
 
-pacman -S  networkmanager grub xfce4 iwd dhcpcd xfce4-terminal thunar pulseaudio pulseaudio-alsa xfce4-goodies lightdm lightdm-gtk-greeter noto-fonts-cjk noto-fonts-emoji noto-fonts
+pacman -S chromium  networkmanager grub xfce4 iwd dhcpcd xfce4-terminal thunar pulseaudio pulseaudio-alsa xfce4-goodies lightdm lightdm-gtk-greeter noto-fonts-cjk noto-fonts-emoji noto-fonts
 
 
 systemctl enable --now lightdm.service
