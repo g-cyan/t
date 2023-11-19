@@ -1,3 +1,4 @@
+pacman -Syu
 pacman -S intel-ucode mesa efibootmgr
 
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
