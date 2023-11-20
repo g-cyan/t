@@ -1,4 +1,5 @@
 alias nn='vim /home/a/.bashrc && . /home/a/.bashrc && cp -rfv /home/a/.bashrc /home/a/t/'
+alias gts='git status'
 alias status='sudo systemctl status '
 alias restart='sudo systemctl enable --now '
 alias upgrade='sudo pacman -Syu'
