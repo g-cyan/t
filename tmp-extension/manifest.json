@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "name": "TEST-EXTENSION",
+    "description": "I WANT TO GET RICH",
+    "version": "1.0",
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/a.png",
+            "32": "/images/a.png",
+            "48": "/images/a.png",
+            "128": "/images/a.png"
+        }
+    },
+    "icons": {
+        "16": "/images/a.png",
+        "32": "/images/a.png",
+        "48": "/images/a.png",
+        "128": "/images/a.png"
+    },
+    "commands": {
+        "V": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+V"
+            },
+            "description": "V"
+        }
+    }
+}
