@@ -1,3 +1,5 @@
+alias v1='vim /home/a/.vimrc'
+alias mvv='cd /home/a/.vim'
 alias nn='vim /home/a/.bashrc && . /home/a/.bashrc && cp -rfv /home/a/.bashrc /home/a/t/'
 alias gts='git status'
 alias pwd2='echo -n $(pwd) | xclip -selection clipboard;'
