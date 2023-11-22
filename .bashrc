@@ -1,5 +1,6 @@
 alias nn='vim /home/a/.bashrc && . /home/a/.bashrc && cp -rfv /home/a/.bashrc /home/a/t/'
 alias gts='git status'
+alias pwd2='echo -n $(pwd) | xclip -selection clipboard;'
 alias rmv='rm -rfv'
 alias status='sudo systemctl status '
 alias restart='sudo systemctl enable --now '
