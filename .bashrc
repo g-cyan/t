@@ -1,3 +1,4 @@
+alias mvl='cd /home/a/t/lifetime'
 alias v1='vim /home/a/.vimrc'
 alias mvv='cd /home/a/.vim'
 alias nn='vim /home/a/.bashrc && . /home/a/.bashrc && cp -rfv /home/a/.bashrc /home/a/t/'
@@ -23,7 +24,7 @@ alias enable='sudo systemctl enable'
 alias asdf='cd /home/a/t ; git add --all; git commit -a --allow-empty-message -m "" ; git push origin main;'
 alias gtpl='git fetch --all; git reset --hard origin main;git pull;update'
 alias mvt='cd /home/a/t/'
-
+alias zzz='echo -n "rustlings" | xclip -selection clipboard'
 #
 # ~/.bashrc
 #
@@ -34,3 +35,4 @@ alias mvt='cd /home/a/t/'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
+. "$HOME/.cargo/env"
